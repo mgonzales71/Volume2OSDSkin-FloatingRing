@@ -9,5 +9,11 @@
 ![usb connect](https://user-images.githubusercontent.com/6510026/35203091-386ec8d6-fedb-11e7-8d27-8683f98ad67c.png)
 ![usb disconnect](https://user-images.githubusercontent.com/6510026/35203093-388ce672-fedb-11e7-8ad6-d57e26e25467.png)
 ![volume](https://user-images.githubusercontent.com/6510026/35203094-38b83bc4-fedb-11e7-9c55-27a7fe71f8a6.png)
+
+Version 2 (v2)
+
+V2 adds a volume icon to back.png
+
+![v2 volume](https://user-images.githubusercontent.com/6510026/35204252-c9b4e072-fee1-11e7-859f-6ab389db5748.png)
  
 Some icons courtesy of https://icons8.com/ free license. Thanks.
