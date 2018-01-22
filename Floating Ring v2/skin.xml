@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLskinSettings>
+  <Info>
+    <Author>Floating Ring v2</Author>
+    <WebSite>http://github.com/mgonzales71</WebSite>
+    <SkinVersion>2.0</SkinVersion>
+  </Info>
+  <OSD>
+    <!--Orientation: BitMoveUp, BitMoveRight, BitStripBottom, BitStripRight, Horizontal, Vertical-->
+    <!--LayerIndex: -1 - plNone, 0 - plAfterBack, 2 - plAfterMeter, 3 - plAfterText, 4 - plAfterDigits, 5 - plAfterGlass-->
+    <FadeSteps>8</FadeSteps>
+    <ShowSteps>43</ShowSteps>
+    <Colorization>false</Colorization>
+    <!--Value format: #AARRGGBB. -1 - Use system color-->
+    <ColorizationColor>-1</ColorizationColor>
+    <Background Colorize="true"/>
+    <Meter X="0" Y="0" Orientation="BitStripBottom" Min="0" Max="100" HideOnMute="true" Colorize="true"/>
+    <MeterMute X="0" Y="0" Orientation="BitStripBottom" Min="0" Max="100" Colorize="true"/>
+    <MeterEffect Enable="false" Orientation="" Min="0" Max="0" LayerIndex="0" HideOnMute="false" X="0" Y="0" Colorize="true"/>
+    <MeterMuteEffect Enable="false" LayerIndex="0" X="0" Y="0" Colorize="true"/>
+  </OSD>
+  <PeakMeter>
+    <ShowPeakMeter>false</ShowPeakMeter>
+    <MeterOrientation>horizontal</MeterOrientation>
+    <MeterMax>-1</MeterMax>
+    <MeterStyle>mono</MeterStyle>
+    <LayerIndex>-1</LayerIndex>
+    <MeterLeftInvert>false</MeterLeftInvert>
+    <MeterRightInvert>false</MeterRightInvert>
+    <MeterLeftPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterLeftPosition>
+    <MeterRightPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </MeterRightPosition>
+  </PeakMeter>
+  <Text>
+    <ShowText>false</ShowText>
+    <TextPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </TextPosition>
+    <Size>0</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#FFFFFFFF</Color>
+    <Format>%d%%</Format>
+    <!--Value format: #AARRGGBB-->
+    <ColorMute>#FFFFFFFF</ColorMute>
+    <FormatMute>%d%%</FormatMute>
+    <!--Alignment: 0 - taLeft, 1 - taCenter, 2 - taRight-->
+    <Alignment>1</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <HideTextOnMute>false</HideTextOnMute>
+    <LayerIndex>-1</LayerIndex>
+  </Text>
+  <NotificationText>
+    <Show>false</Show>
+    <Position>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>0</Width>
+      <Height>0</Height>
+    </Position>
+    <Size>0</Size>
+    <!--Value format: #AARRGGBB-->
+    <Color>#00000000</Color>
+    <Alignment>0</Alignment>
+    <FontName></FontName>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <LayerIndex>0</LayerIndex>
+  </NotificationText>
+  <Layers/>
+</XMLskinSettings>
